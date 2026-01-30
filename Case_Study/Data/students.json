@@ -1,0 +1,16 @@
+[
+    {
+        "id": "100",
+        "name": "rupesh",
+        "department": "IT",
+        "average": 92.0,
+        "grade": "A"
+    },
+    {
+        "id": "101",
+        "name": "raju",
+        "department": "IT",
+        "average": 97.0,
+        "grade": "A"
+    }
+]
