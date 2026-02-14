@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.13.0 on win32)" generated="2026-02-02T16:50:04.107121" rpa="false" schemaversion="5">
+<suite id="s1" name="AutomationTestForm" source="C:\Users\abhir\PycharmProjects\Wipro_2026\Day14_class(02-02-2026)\Day14_Labs\Question2\AutomationTestForm.robot">
+<test id="s1-t1" name="Form Interaction Using SeleniumLibrary" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-02T16:50:04.526475" level="INFO">Opening browser 'Chrome' to base url 'https://demo.automationtesting.in/Register.html'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-02T16:50:04.525977" elapsed="3.900781"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-02-02T16:50:08.427888" elapsed="0.085999"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-02T16:50:08.516623" level="INFO">Typing text 'Abhi' into text field 'xpath=//input[@placeholder='First Name']'.</msg>
+<arg>xpath=//input[@placeholder='First Name']</arg>
+<arg>Abhi</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-02T16:50:08.514668" elapsed="0.302876"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-02T16:50:08.819954" level="INFO">Typing text 'Ram' into text field 'xpath=//input[@placeholder='Last Name']'.</msg>
+<arg>xpath=//input[@placeholder='Last Name']</arg>
+<arg>Ram</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-02T16:50:08.818492" elapsed="0.293556"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-02T16:50:09.113452" level="INFO">Typing text 'Hyderabad' into text field 'xpath=//textarea[@ng-model='Adress']'.</msg>
+<arg>xpath=//textarea[@ng-model='Adress']</arg>
+<arg>Hyderabad</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-02T16:50:09.112850" elapsed="0.197067"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-02T16:50:09.311328" level="INFO">Typing text 'abhi@gmail.com' into text field 'xpath=//input[@type='email']'.</msg>
+<arg>xpath=//input[@type='email']</arg>
+<arg>abhi@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-02T16:50:09.310777" elapsed="0.262851"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-02T16:50:09.575326" level="INFO">Typing text '9876543210' into text field 'xpath=//input[@type='tel']'.</msg>
+<arg>xpath=//input[@type='tel']</arg>
+<arg>9876543210</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-02T16:50:09.574573" elapsed="0.297755"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-02T16:50:09.873882" level="INFO">Clicking element 'xpath=//input[@value='Male']'.</msg>
+<arg>xpath=//input[@value='Male']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-02T16:50:09.873223" elapsed="0.129863"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-02T16:50:10.004196" level="INFO">Clicking element 'id=checkbox1'.</msg>
+<arg>id=checkbox1</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-02T16:50:10.003728" elapsed="0.099834"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2026-02-02T16:50:10.104911" level="INFO">Selecting options from selection list 'id=Skills' by value Python.</msg>
+<arg>id=Skills</arg>
+<arg>Python</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2026-02-02T16:50:10.104435" elapsed="0.121951"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-02T16:50:10.229026" level="INFO">Test executed in Chrome browser</msg>
+<arg>Test executed in Chrome browser</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-02T16:50:10.228166" elapsed="0.001009"/>
+</kw>
+<arg>'${BROWSER}' == 'Chrome'</arg>
+<arg>Log</arg>
+<arg>Test executed in Chrome browser</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2026-02-02T16:50:10.226967" elapsed="0.002392"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-02T16:50:12.232569" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-02T16:50:10.229986" elapsed="2.002828"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-02-02T16:50:12.256274" level="INFO">Clicking button 'id=submitbtn'.</msg>
+<arg>id=submitbtn</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-02T16:50:12.255798" elapsed="0.690769"/>
+</kw>
+<kw name="Get Title" owner="SeleniumLibrary">
+<msg time="2026-02-02T16:50:13.119506" level="INFO">${title} = Register</msg>
+<var>${title}</var>
+<doc>Returns the title of the current page.</doc>
+<status status="PASS" start="2026-02-02T16:50:12.953185" elapsed="0.166425"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${title}</arg>
+<arg>Register</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-02-02T16:50:13.127287" elapsed="0.000892"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-02-02T16:50:13.128912" elapsed="2.678555"/>
+</kw>
+<status status="PASS" start="2026-02-02T16:50:04.524169" elapsed="11.284182"/>
+</test>
+<status status="PASS" start="2026-02-02T16:50:04.109926" elapsed="11.699761"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="AutomationTestForm" id="s1" pass="1" fail="0" skip="0">AutomationTestForm</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
