@@ -1,0 +1,8 @@
+5. Explain how Pytest supports scalable test automation
+
+Pytest supports scalable test automation by:
+Providing simple and readable test syntax
+Supporting reusable fixtures for setup and teardown
+Enabling parallel test execution using pytest-xdist
+Offering a rich plugin ecosystem for reporting, retries, and mocking
+Supporting CI/CD integration using JUnit XML reports
