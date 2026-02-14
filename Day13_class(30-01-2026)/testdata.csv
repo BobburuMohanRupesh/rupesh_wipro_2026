@@ -1,0 +1,4 @@
+${username}	${password}	${expected}
+Admin	admin123	pass
+Admin	wrong123	fail
+Wrong	admin123	fail
