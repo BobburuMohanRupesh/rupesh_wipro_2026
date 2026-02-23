@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.12.10 on win32)" generated="2026-02-22T13:59:27.615186" rpa="false" schemaversion="5">
+<suite id="s1" name="Tc01 Register Login" source="R:\capstone project\robot_framework_capstone_oldoriginal\tests\tc01_register_login.robot">
+<kw name="Open Site" owner="common" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-22T13:59:28.416312" level="INFO">Opening browser 'chrome' to base url 'https://ecommerce-playground.lambdatest.io/index.php'.</msg>
+<arg>${BASE_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-22T13:59:28.415305" elapsed="6.106016"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<msg time="2026-02-22T13:59:34.551676" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.77)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff70d4f4435
+	0x7ff70d4f4490
+	0x7ff70d28d49d
+	0x7ff70d264012
+	0x7ff70d318c66
+	0x7ff70d335072
+	0x7ff70d2d8e38
+	0x7ff70d2d9d23
+	0x7ff70d7c3b30
+	0x7ff70d7be3b8
+	0x7ff70d7de72a
+	0x7ff70d5107e5
+	0x7ff70d51978c
+	0x7ff70d4fd794
+	0x7ff70d4fd946
+	0x7ff70d4e3457
+	0x7ffd00d1e8d7
+	0x7ffd0198c40c
+</msg>
+<msg time="2026-02-22T13:59:34.559578" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.77)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff70d4f4435
+	0x7ff70d4f4490
+	0x7ff70d28d49d
+	0x7ff70d264012
+	0x7ff70d318c66
+	0x7ff70d335072
+	0x7ff70d2d8e38
+	0x7ff70d2d9d23
+	0x7ff70d7c3b30
+	0x7ff70d7be3b8
+	0x7ff70d7de72a
+	0x7ff70d5107e5
+	0x7ff70d51978c
+	0x7ff70d4fd794
+	0x7ff70d4fd946
+	0x7ff70d4e3457
+	0x7ffd00d1e8d7
+	0x7ffd0198c40c
+</msg>
+<doc>Maximizes current browser window.</doc>
+<status status="FAIL" start="2026-02-22T13:59:34.523655" elapsed="0.198942">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.77)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff70d4f4435
+	0x7ff70d4f4490
+	0x7ff70d28d49d
+	0x7ff70d264012
+	0x7ff70d318c66
+	0x7ff70d335072
+	0x7ff70d2d8e38
+	0x7ff70d2d9d23
+	0x7ff70d7c3b30
+	0x7ff70d7be3b8
+	0x7ff70d7de72a
+	0x7ff70d5107e5
+	0x7ff70d51978c
+	0x7ff70d4fd794
+	0x7ff70d4fd946
+	0x7ff70d4e3457
+	0x7ffd00d1e8d7
+	0x7ffd0198c40c
+</status>
+</kw>
+<kw name="Set Selenium Timeout" owner="SeleniumLibrary">
+<arg>10s</arg>
+<doc>Sets the timeout that is used by various keywords.</doc>
+<status status="NOT RUN" start="2026-02-22T13:59:34.722597" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2026-02-22T13:59:28.413788" elapsed="6.308809">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.77)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff70d4f4435
+	0x7ff70d4f4490
+	0x7ff70d28d49d
+	0x7ff70d264012
+	0x7ff70d318c66
+	0x7ff70d335072
+	0x7ff70d2d8e38
+	0x7ff70d2d9d23
+	0x7ff70d7c3b30
+	0x7ff70d7be3b8
+	0x7ff70d7de72a
+	0x7ff70d5107e5
+	0x7ff70d51978c
+	0x7ff70d4fd794
+	0x7ff70d4fd946
+	0x7ff70d4e3457
+	0x7ffd00d1e8d7
+	0x7ffd0198c40c
+</status>
+</kw>
+<test id="s1-t1" name="Register User With CSV for user Abhi Ram" line="18">
+<status status="FAIL" start="2026-02-22T13:59:34.723591" elapsed="0.001506">Parent suite setup failed:
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.77)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff70d4f4435
+	0x7ff70d4f4490
+	0x7ff70d28d49d
+	0x7ff70d264012
+	0x7ff70d318c66
+	0x7ff70d335072
+	0x7ff70d2d8e38
+	0x7ff70d2d9d23
+	0x7ff70d7c3b30
+	0x7ff70d7be3b8
+	0x7ff70d7de72a
+	0x7ff70d5107e5
+	0x7ff70d51978c
+	0x7ff70d4fd794
+	0x7ff70d4fd946
+	0x7ff70d4e3457
+	0x7ffd00d1e8d7
+	0x7ffd0198c40c
+</status>
+</test>
+<test id="s1-t2" name="Register User With CSV for user Ranga akash" line="18">
+<status status="FAIL" start="2026-02-22T13:59:34.725723" elapsed="0.002695">Parent suite setup failed:
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.77)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff70d4f4435
+	0x7ff70d4f4490
+	0x7ff70d28d49d
+	0x7ff70d264012
+	0x7ff70d318c66
+	0x7ff70d335072
+	0x7ff70d2d8e38
+	0x7ff70d2d9d23
+	0x7ff70d7c3b30
+	0x7ff70d7be3b8
+	0x7ff70d7de72a
+	0x7ff70d5107e5
+	0x7ff70d51978c
+	0x7ff70d4fd794
+	0x7ff70d4fd946
+	0x7ff70d4e3457
+	0x7ffd00d1e8d7
+	0x7ffd0198c40c
+</status>
+</test>
+<test id="s1-t3" name="Register User With CSV for user Durga Prasad" line="18">
+<status status="FAIL" start="2026-02-22T13:59:34.730623" elapsed="0.002006">Parent suite setup failed:
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.77)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff70d4f4435
+	0x7ff70d4f4490
+	0x7ff70d28d49d
+	0x7ff70d264012
+	0x7ff70d318c66
+	0x7ff70d335072
+	0x7ff70d2d8e38
+	0x7ff70d2d9d23
+	0x7ff70d7c3b30
+	0x7ff70d7be3b8
+	0x7ff70d7de72a
+	0x7ff70d5107e5
+	0x7ff70d51978c
+	0x7ff70d4fd794
+	0x7ff70d4fd946
+	0x7ff70d4e3457
+	0x7ffd00d1e8d7
+	0x7ffd0198c40c
+</status>
+</test>
+<kw name="Close Site" owner="common" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-02-22T13:59:34.734637" elapsed="2.259959"/>
+</kw>
+<status status="PASS" start="2026-02-22T13:59:34.733631" elapsed="2.261976"/>
+</kw>
+<status status="FAIL" start="2026-02-22T13:59:27.620218" elapsed="9.375389">Suite setup failed:
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.77)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff70d4f4435
+	0x7ff70d4f4490
+	0x7ff70d28d49d
+	0x7ff70d264012
+	0x7ff70d318c66
+	0x7ff70d335072
+	0x7ff70d2d8e38
+	0x7ff70d2d9d23
+	0x7ff70d7c3b30
+	0x7ff70d7be3b8
+	0x7ff70d7de72a
+	0x7ff70d5107e5
+	0x7ff70d51978c
+	0x7ff70d4fd794
+	0x7ff70d4fd946
+	0x7ff70d4e3457
+	0x7ffd00d1e8d7
+	0x7ffd0198c40c
+</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Tc01 Register Login" id="s1" pass="0" fail="3" skip="0">Tc01 Register Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-02-22T13:59:34.551676" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.77)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff70d4f4435
+	0x7ff70d4f4490
+	0x7ff70d28d49d
+	0x7ff70d264012
+	0x7ff70d318c66
+	0x7ff70d335072
+	0x7ff70d2d8e38
+	0x7ff70d2d9d23
+	0x7ff70d7c3b30
+	0x7ff70d7be3b8
+	0x7ff70d7de72a
+	0x7ff70d5107e5
+	0x7ff70d51978c
+	0x7ff70d4fd794
+	0x7ff70d4fd946
+	0x7ff70d4e3457
+	0x7ffd00d1e8d7
+	0x7ffd0198c40c
+</msg>
+</errors>
+</robot>
